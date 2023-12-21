@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     #Installed App
     'core',
+    'user',
 
     #Installed LIbraries / 3rd party library
     'drf_spectacular',
