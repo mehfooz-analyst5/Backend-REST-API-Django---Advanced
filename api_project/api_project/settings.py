@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     #Installed LIbraries / 3rd party library
     'drf_spectacular',
     'rest_framework',
+    'rest_framework.authtoken',
 ]
 
 
