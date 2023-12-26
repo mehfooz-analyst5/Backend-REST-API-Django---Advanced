@@ -31,6 +31,9 @@ urlpatterns = [
 
     path('api/user/', include('user.urls')),
 
+    #Recipe App
+    path('api/recipe/', include('recipe.urls')),
+
     # ... Your other URL patterns ...
     path('api/schema/', SpectacularAPIView.as_view(), name='api-schema'),
     path('api/docs/', SpectacularSwaggerView.as_view(url_name='api-schema'), name='api-docs'),
