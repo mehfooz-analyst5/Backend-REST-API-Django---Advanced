@@ -47,3 +47,11 @@ class UserAdmin(BaseUserAdmin):
 
 
 admin.site.register(models.User, UserAdmin)
+
+
+# class RecipeAdmin(ModelAdmin):
+#     """Define the admin pages for users."""
+#     ordering = ['id']
+#     list_display = ['email', 'name', 'last_login']
+
+admin.site.register(models.Recipe)
